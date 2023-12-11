@@ -4,3 +4,5 @@ The main input of the script : XXX is a structure containing multiple cells' flu
 The main outpuy is a new structure with identified ring centers and their width.
 
 Parameters to adjust:
+1.X
+2.Y
