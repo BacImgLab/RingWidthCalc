@@ -26,6 +26,10 @@ Two user defined functions used in mainScript.m.
   2. Cell intensity profiles along the long aixs using imageJ plugin [MicrobeJ] (https://www.microbej.com/download-2/).
   3. Require Matlab 2020a or newer for some functions in the GUI.
   4. Bright field (or PhaseContrast) images of bacteria cells are required for cell segmentation.
+  5. Fluorescence image of the Protein of interest, FtsZ, for instance.
+# Note
+  The default set in our code is: BF or Phase images in Channel1 (ch1) and Fluorescence images in Channel2 (ch2).
+  Otherwise, the line 60 and 62 in the mainscript.m should be modified.
 
  # How to use
  **Step 1:** User opens a phase-contrast image in cellpose 2.0 and segmentate the cells, the result should be saved as xxx_cp_outlines.txt (how to use cellpose 2.0 refers to https://github.com/MouseLand/cellpose).
